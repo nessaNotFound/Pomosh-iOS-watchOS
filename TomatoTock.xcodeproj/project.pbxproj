@@ -36,7 +36,6 @@
 		0AB6643E24881AF300548CC8 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6643D24881AF300548CC8 /* Timer.swift */; };
 		0AB6644024881B0F00548CC8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6643F24881B0F00548CC8 /* Utils.swift */; };
 		0AB664482489167B00548CC8 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB664472489167B00548CC8 /* PagerView.swift */; };
-		0AB6644A2489479B00548CC8 /* session.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AB664492489479B00548CC8 /* session.wav */; };
 		0AB6644F248950E100548CC8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB6644E248950E100548CC8 /* AVFoundation.framework */; };
 		0AB664512489524800548CC8 /* toggle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AB664502489524800548CC8 /* toggle.wav */; };
 		0AB6645A248969D300548CC8 /* Silka Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB66459248969D300548CC8 /* Silka Bold.otf */; };
@@ -45,6 +44,13 @@
 		0AB6645E24896A1600548CC8 /* Silka Regular.otf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AB6645B248969DD00548CC8 /* Silka Regular.otf */; };
 		31C7881A2BFE722E0071C1EA /* end.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31C788192BFE722E0071C1EA /* end.wav */; };
 		31C7881C2BFE754B0071C1EA /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31C7881B2BFE754B0071C1EA /* hit.wav */; };
+		31C7882A2BFE811B0071C1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D952D2486BD1F001C4293 /* Assets.xcassets */; };
+		31C7882B2BFE81200071C1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D952D2486BD1F001C4293 /* Assets.xcassets */; };
+		31C7882D2BFE87520071C1EA /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31C7882C2BFE87520071C1EA /* 2.jpg */; };
+		31C7882F2BFE8ACC0071C1EA /* video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C7882E2BFE8ACC0071C1EA /* video.swift */; };
+		31C788312BFE8B430071C1EA /* bg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 31C788302BFE8B430071C1EA /* bg.mp4 */; };
+		31C788322BFE8B430071C1EA /* bg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 31C788302BFE8B430071C1EA /* bg.mp4 */; };
+		31C788332BFE8B430071C1EA /* bg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 31C788302BFE8B430071C1EA /* bg.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,7 +157,6 @@
 		0AB6644524883C7E00548CC8 /* Pomosh Watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pomosh Watch.entitlements"; sourceTree = "<group>"; };
 		0AB6644624883C8600548CC8 /* PomoshDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PomoshDebug.entitlements; sourceTree = "<group>"; };
 		0AB664472489167B00548CC8 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
-		0AB664492489479B00548CC8 /* session.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = session.wav; sourceTree = "<group>"; };
 		0AB6644E248950E100548CC8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0AB664502489524800548CC8 /* toggle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = toggle.wav; sourceTree = "<group>"; };
 		0AB66459248969D300548CC8 /* Silka Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silka Bold.otf"; sourceTree = "<group>"; };
@@ -159,6 +164,10 @@
 		31C788192BFE722E0071C1EA /* end.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = end.wav; path = ../../../../Downloads/end.wav; sourceTree = "<group>"; };
 		31C7881B2BFE754B0071C1EA /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = ../../../../Downloads/hit.wav; sourceTree = "<group>"; };
 		31C788292BFE779C0071C1EA /* Pomosh Watch copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pomosh Watch copy-Info.plist"; path = "/Users/vanessapollice/Documents/github/Pomosh-iOS-watchOS/Pomosh Watch copy-Info.plist"; sourceTree = "<absolute>"; };
+		31C7882C2BFE87520071C1EA /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../Downloads/2.jpg; sourceTree = "<group>"; };
+		31C7882E2BFE8ACC0071C1EA /* video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video.swift; sourceTree = "<group>"; };
+		31C788302BFE8B430071C1EA /* bg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = bg.mp4; path = ../../../../Downloads/bg.mp4; sourceTree = "<group>"; };
+		31C788342BFE8C000071C1EA /* bg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +192,7 @@
 		0A4D95182486BD1B001C4293 = {
 			isa = PBXGroup;
 			children = (
+				31C788342BFE8C000071C1EA /* bg.mp4 */,
 				0A4D95232486BD1B001C4293 /* Pomosh */,
 				0AB6640D2487DA0E00548CC8 /* Pomosh Watch */,
 				0AB6641C2487DA1200548CC8 /* Pomosh Watch Extension */,
@@ -205,14 +215,15 @@
 		0A4D95232486BD1B001C4293 /* Pomosh */ = {
 			isa = PBXGroup;
 			children = (
+				31C788302BFE8B430071C1EA /* bg.mp4 */,
 				0AB6644624883C8600548CC8 /* PomoshDebug.entitlements */,
 				0AB66443248837D900548CC8 /* PomoshRelease.entitlements */,
 				0A4D95452486C6C5001C4293 /* Fonts */,
 				0A4D95242486BD1B001C4293 /* AppDelegate.swift */,
 				0A4D95262486BD1B001C4293 /* SceneDelegate.swift */,
-				0AB664492489479B00548CC8 /* session.wav */,
 				0A4D952B2486BD1B001C4293 /* ContentView.swift */,
 				0A4D952D2486BD1F001C4293 /* Assets.xcassets */,
+				31C7882C2BFE87520071C1EA /* 2.jpg */,
 				0A4D95322486BD1F001C4293 /* LaunchScreen.storyboard */,
 				0A4D95352486BD1F001C4293 /* Info.plist */,
 				0A4D95282486BD1B001C4293 /* Pomosh.xcdatamodeld */,
@@ -233,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				0A4D95302486BD1F001C4293 /* Preview Assets.xcassets */,
+				31C7882E2BFE8ACC0071C1EA /* video.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -406,10 +418,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				31C7881C2BFE754B0071C1EA /* hit.wav in Resources */,
+				31C788312BFE8B430071C1EA /* bg.mp4 in Resources */,
 				31C7881A2BFE722E0071C1EA /* end.wav in Resources */,
+				31C7882D2BFE87520071C1EA /* 2.jpg in Resources */,
 				0AB6645A248969D300548CC8 /* Silka Bold.otf in Resources */,
 				0AB664512489524800548CC8 /* toggle.wav in Resources */,
-				0AB6644A2489479B00548CC8 /* session.wav in Resources */,
 				0A4D95342486BD1F001C4293 /* LaunchScreen.storyboard in Resources */,
 				0A4D95472486C6D3001C4293 /* SpaceMono-Regular.ttf in Resources */,
 				0AB6645C248969DD00548CC8 /* Silka Regular.otf in Resources */,
@@ -423,6 +436,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB664122487DA1200548CC8 /* Assets.xcassets in Resources */,
+				31C7882A2BFE811B0071C1EA /* Assets.xcassets in Resources */,
+				31C788322BFE8B430071C1EA /* bg.mp4 in Resources */,
 				0AB664102487DA0E00548CC8 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +447,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB6642D2487DA1300548CC8 /* Preview Assets.xcassets in Resources */,
+				31C7882B2BFE81200071C1EA /* Assets.xcassets in Resources */,
+				31C788332BFE8B430071C1EA /* bg.mp4 in Resources */,
 				0AB6642A2487DA1300548CC8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +469,7 @@
 				0A4D953C2486BE6D001C4293 /* Timer.swift in Sources */,
 				0A4D95442486C2E2001C4293 /* Button.swift in Sources */,
 				0A4D95272486BD1B001C4293 /* SceneDelegate.swift in Sources */,
+				31C7882F2BFE8ACC0071C1EA /* video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

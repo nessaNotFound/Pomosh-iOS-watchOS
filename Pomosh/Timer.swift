@@ -80,7 +80,7 @@ class PomoshTimer: ObservableObject {
         do {
             try AVAudioSession.sharedInstance().setCategory(.ambient)
             try AVAudioSession.sharedInstance().setActive(true)
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "session", ofType: "wav")!))
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "hit", ofType: "wav")!))
             audioPlayer.play()
         } catch {
         }

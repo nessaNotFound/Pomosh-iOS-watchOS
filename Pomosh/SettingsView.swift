@@ -80,65 +80,6 @@ struct SettingsView: View {
                         }.padding(.vertical, 5.0)
                     }
                 }
-                Section(header: Text("About Pomosh")) {
-                    HStack {
-                        Text("Do you like Pomosh?")
-                            .foregroundColor(Color("Text"))
-                            .font(.custom("Silka Regular", size: 14))
-                        Spacer()
-                        Text("Give 5 X ⭐️")
-                            .foregroundColor(Color("Text"))
-                            .font(.custom("Silka Regular", size: 14))
-                    }
-                    .onTapGesture {
-                        requestReviewManually()
-                    }
-
-                    HStack {
-                        Text("🐛 Found bug?")
-                            .foregroundColor(Color("Text"))
-                            .font(.custom("Silka Regular", size: 14))
-
-                        Spacer()
-                        Text("Open an issue")
-                            .foregroundColor(Color("Text"))
-                            .font(.custom("Silka Regular", size: 14))
-                    }
-                    .onTapGesture {
-                        let repoURL = URL(string: "https://github.com/stevenselcuk/Pomosh-iOS-watchOS")!
-                        UIApplication.shared.open(repoURL)
-                        generator.impactOccurred()
-                    }
-                    HStack {
-                        Text("Follow us on Twitter")
-                            .foregroundColor(Color("Text"))
-                            .font(.custom("Silka Regular", size: 14))
-                        Spacer()
-                        Text("© Tabby Cat, LLC")
-                            .foregroundColor(Color("Text"))
-                            .font(.custom("Silka Regular", size: 14))
-                    }
-                    .onTapGesture {
-                        let screenName = "hevalandsteven"
-                        let appURL = URL(string: "twitter://user?screen_name=\(screenName)")!
-                        let webURL = URL(string: "https://twitter.com/\(screenName)")!
-                        generator.impactOccurred()
-                        if UIApplication.shared.canOpenURL(appURL as URL) {
-                            if #available(iOS 10.0, *) {
-                                UIApplication.shared.open(appURL)
-                            } else {
-                                UIApplication.shared.openURL(appURL)
-                            }
-                        } else {
-                            if #available(iOS 10.0, *) {
-                                UIApplication.shared.open(webURL)
-                            } else {
-                                UIApplication.shared.openURL(webURL)
-                            }
-                        }
-                    }
-                }
-
             }.navigationBarTitle("Preferences")
         }
     }
